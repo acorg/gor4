@@ -34,9 +34,16 @@ print('Prediction probabilities', result['probabilities'])
 
 For detailed usage examples, see the tests in `test/test_gor4.py`.
 
-Note that it is possible to pass alternate known sequence and secondary
-structure files to `GOR4.__init__` but this is not done in any of the test
-examples.
+Notes:
+
+* The initialization of a `GOR4` instance is very slow (due to reading
+  large files of AA structure infomation from `gor4/data`), so you will
+  likely want to make a
+  [singleton](https://en.wikipedia.org/wiki/Singleton_pattern) instance and
+  just use that.
+
+* It is possible to pass alternate known sequence and secondary structure
+files to `GOR4.__init__` but this is not done in any of the test examples.
 
 ## C interface files
 
