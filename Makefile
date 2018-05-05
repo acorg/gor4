@@ -22,4 +22,4 @@ clean:
 # twine-pypi').
 upload:
 	python setup.py sdist
-	twine upload dist/gor4-$$(grep __version__ ../gor4/__init__.py | tr -d "'" | awk '{print $$3}' ).tar.gz
+	twine upload dist/gor4-$$(grep __version__ gor4/__init__.py | tr -d "'" | awk '{print $$3}' ).tar.gz

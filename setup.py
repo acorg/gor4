@@ -20,7 +20,7 @@ def version():
         raise RuntimeError('Unable to find version string in %r.' % init)
 
 
-setup(name='dark-matter',
+setup(name='gor4',
       version=version(),
       packages=['gor4'],
       include_package_data=True,
