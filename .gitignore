@@ -1,0 +1,11 @@
+*.pyc
+*~
+*.o
+*.so
+.DS_Store
+_trial_temp
+__pycache__
+build
+dist
+gor4.egg-info
+.pytest_cache
