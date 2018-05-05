@@ -8,6 +8,6 @@ python:
 install:
   ./install-dependencies.sh
 script:
-  - pytest
+  - env PYTHONPATH=. pytest
 notifications:
   irc: "irc.freenode.net#acorg"
