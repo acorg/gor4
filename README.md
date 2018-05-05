@@ -35,9 +35,9 @@ Note that it is possible to pass alternate known sequence and secondary
 structure files to `GOR4.__init__` but this is not done in any of the test
 examples.
 
-## Files
+## C interface files
 
-The files in this directory are as follows:
+The files in the `src` directory are as follows:
 
 * `api.c`: An API library suitable for calling via Cython. This has 3
   functions, `initialize`, `predict` and `finalize`.  Initialize returns a
