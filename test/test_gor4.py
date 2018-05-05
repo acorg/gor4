@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from gor4.gor4 import GOR4
+from gor4 import GOR4
 
 
 class TestGOR4(TestCase):

@@ -9,7 +9,7 @@ check: gor4/_gor4.so
 	env PYTHONPATH=. pytest
 
 tcheck: gor4/_gor4.so
-	env PYTHONPATH=. trial --rterrors test
+	env PYTHONPATH=. trial --rterrors test/test_gor4.py
 
 clean:
 	rm -f gor4/_gor4.*
