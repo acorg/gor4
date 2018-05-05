@@ -4,6 +4,9 @@ GOR is an algorithm for predicting secondary structure from an amino acid
 sequence. It is described in
 [GOR Method for Predicting Protein Secondary Structure from Amino Acid Sequence](http://www.ulb.ac.be/di/map/tlenaert/Home_Tom_Lenaerts/INFO-F-208_files/1996%20Garnier.pdf).
 
+[![Build Status](https://travis-ci.org/acorg/gor4.svg?branch=master)](https://travis-ci.org/acorg/gor4)
+
+
 ## The original C code
 
 The GOR IV code in this directory is based on the C code available from
