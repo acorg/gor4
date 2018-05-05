@@ -6,10 +6,10 @@ gor4/_gor4.so: $(wildcard src/*.c src/*.h src/build.py)
 	python setup.py build_ext -i
 
 check: gor4/_gor4.so
-	python -m discover -v
+	env PYTHONPATH=. pytest
 
 tcheck: gor4/_gor4.so
-	trial --rterrors test
+	env PYTHONPATH=. trial --rterrors test
 
 clean:
 	rm -f gor4/_gor4.*
